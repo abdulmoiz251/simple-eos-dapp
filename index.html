@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="js/eosjs-api.js"></script>
+    <script src="js/eosjs-jsonrpc.js"></script>
+    <script src="js/eosjs-jssig.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/eosjs-ecc@4.0.4/lib/eosjs-ecc.min.js"></script>
+
+    <script src="js/scatterjs-core.min.js"></script>
+    <script src="js/scatterjs-plugin-eosjs2.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+
+    <style>
+      table td, table th {
+        padding: 10px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-align: left;
+      }
+
+      h2 {
+        margin-left: 10px;
+      }
+    </style>
+</head>
+
+
+<body>
+  <h2 id="lblAccount"></h2>
+  <br>
+
+  <table id="tbl">
+    <th>ID</th>
+    <th>secondindex</th>
+    <th>sender</th>
+    <th>receiver</th>
+    <th>tokens</th>
+    <th>fees</th>
+    <th>completed</th>
+  </table>
+
+</body>
+
+</html>
